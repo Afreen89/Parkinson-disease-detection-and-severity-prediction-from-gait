@@ -50,3 +50,6 @@ The entry point is train.py file. It has 3 arguments:
     
                 
 
+## Changes
+
+1 - Adopting the code for tensorflow >= 2.3
