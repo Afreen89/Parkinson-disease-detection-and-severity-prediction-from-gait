@@ -7,11 +7,11 @@ import os
 import random
 import sys
 
-import keras
+from tensorflow import keras
 import numpy as np
 import pandas as pd
 import tensorflow as tf
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 
 sys.path.append('../src')
 np.random.seed(2)

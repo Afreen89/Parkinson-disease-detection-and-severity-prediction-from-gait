@@ -2,8 +2,8 @@ import numpy as np
 import argparse
 # fix random seed for reproducibility
 np.random.seed(2) #2
-from keras import optimizers
-from keras.callbacks import ModelCheckpoint, EarlyStopping, CSVLogger
+from tensorflow.keras import optimizers
+from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, CSVLogger
 
 import os
 import datetime
